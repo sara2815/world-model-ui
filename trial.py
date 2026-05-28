@@ -12,6 +12,7 @@ pipeline = StableDiffusionPipeline.from_pretrained(
     "sd-dreambooth-library/mr-potato-head", 
     torch_dtype=torch.float32
 )
+
 net = pipeline.unet  # u-net
 vae = pipeline.vae
 
