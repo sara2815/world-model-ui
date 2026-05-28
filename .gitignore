@@ -158,7 +158,7 @@ env.bak/
 venv.bak/
 
 #datasets
-/data
+data/
 
 #checkpoints
 *.pt
