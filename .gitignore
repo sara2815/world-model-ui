@@ -157,6 +157,9 @@ ENV/
 env.bak/
 venv.bak/
 
+#datasets
+/data
+
 #checkpoints
 *.pt
 *.pth
