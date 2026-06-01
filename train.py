@@ -9,32 +9,13 @@ from diffusers import StableDiffusionPipeline
 
 from diffusers import DDPMScheduler
 
-noise_scheduler = DDPMScheduler(
-    num_train_timesteps=1000
-)
-
-
-noise = torch.randn_like(latents)
-
-timesteps = torch.randint(
-    0,
-    noise_scheduler.config.num_train_timesteps,
-    (batch_size,),
-    device=device
-)
-
-noisy_latents = noise_scheduler.add_noise(
-    latents,
-    noise,
-    timesteps
-)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print("Loading base pipeline components for standalone image training...")
 pipeline = StableDiffusionPipeline.from_pretrained(
     "sd-dreambooth-library/mr-potato-head", 
-    torch_dtype= torch.float16
+    torch_dtype= torch.float32
 )
 
 net = pipeline.unet
@@ -49,7 +30,11 @@ vae.to(device).eval()
 
 transform = transforms.Compose([
     transforms.Resize((512, 512)),
-    transforms.ToTensor()
+    transforms.ToTensor(),
+     transforms.Normalize(
+        [0.5, 0.5, 0.5],
+        [0.5, 0.5, 0.5]
+    )
 ])
 
 
@@ -60,55 +45,79 @@ dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
 optimizer = AdamW(net.parameters(), lr=1e-5)
 criterion = nn.MSELoss()
 
-def corrupt(latents, noise, timesteps):
-    # Map 0-999 timesteps to a percentage scalar for noise blending
-    amount = (timesteps.float() / 999.0).view(-1, 1, 1, 1)
-    return latents * (1 - amount) + noise * amount
+
+noise_scheduler = DDPMScheduler(
+    num_train_timesteps=1000
+)
+
+scaler = torch.cuda.amp.GradScaler()
 
 epochs = 10
-print(f"Beginning training on {len(dataset)} individual images...")
+
+print(f"Beginning training on {len(dataset)} images...")
+
 
 for epoch in range(epochs):
-    running_loss = 0.0
-    
-    for step, (imgs, _) in enumerate(dataloader):
-        # imgs shape: [Batch, 3, 512, 512]
-        imgs = imgs.to(device)
-        
-        optimizer.zero_grad()
-        
-        with torch.no_grad():
-            # Compress your raw pixels down into 4-channel latent matrices
-            latents = vae.encode(imgs).latent_dist.sample()
-            latents = latents * vae.config.scaling_factor  #use this instead of harcoding scaling factor
-            #latents = latents * 0.18215 # Shape: [Batch, 4, 64, 64]
-            
-        # Create random noise profiles and timestamps for the batch
-        batch_size = latents.shape[0]
-        noise = torch.randn_like(latents)
-        timesteps = torch.randint(0, 1000, (batch_size,), device=device, dtype=torch.long)
-        
-        # Corrupt the latents based on the selected timesteps
-        noisy_latents = corrupt(latents, noise, timesteps)
-        
-        # predicting 
-        # Pass a blank placeholder for encoder_hidden_states to run unconditionally
-        encoder_placeholder = torch.zeros((batch_size, 77, 768), device=device, dtype=latents.dtype)
-        
-        pred_output = net(noisy_latents, timesteps, encoder_placeholder)
-        pred_noise = pred_output.sample
-        
-        # how close the model was to identifying the added noise
-        loss = criterion(pred_noise, noise)
-        
-        # backprop
-        loss.backward()
-        optimizer.step()
-        
-        running_loss += loss.item()
-        
-    print(f"Epoch [{epoch+1}/{epochs}] - Loss: {running_loss / len(dataloader):.5f}")
 
-# Save the updated image-only weights
-torch.save(net.state_dict(), "image_only_reconstruction_unet.pth")
-print("Training finished! Weights saved locally to 'image_only_reconstruction_unet.pth'")
+    running_loss = 0.0
+
+    for imgs, _ in dataloader:
+
+        imgs = imgs.to(device)
+
+        optimizer.zero_grad(set_to_none=True)
+
+        with torch.no_grad():
+            latents = vae.encode(imgs).latent_dist.sample()
+            latents = latents * vae.config.scaling_factor
+
+        batch_size = latents.shape[0]
+
+        noise = torch.randn_like(latents)
+
+        timesteps = torch.randint(
+            0,
+            noise_scheduler.config.num_train_timesteps,
+            (batch_size,),
+            device=device,
+            dtype=torch.long
+        )
+
+        noisy_latents = noise_scheduler.add_noise(
+            latents,
+            noise,
+            timesteps
+        )
+
+        encoder_placeholder = torch.zeros(
+            (batch_size, 77, 768),
+            device=device,
+            dtype=latents.dtype
+        )
+
+        with torch.cuda.amp.autocast():
+            pred_noise = net(
+                noisy_latents,
+                timesteps,
+                encoder_placeholder
+            ).sample
+
+            loss = criterion(pred_noise, noise)
+
+        scaler.scale(loss).backward()
+        scaler.step(optimizer)
+        scaler.update()
+
+        running_loss += loss.item()
+
+    print(
+        f"Epoch [{epoch+1}/{epochs}] "
+        f"Loss: {running_loss / len(dataloader):.5f}"
+    )
+
+torch.save(
+    net.state_dict(),
+    "image_only_reconstruction_unet.pth"
+)
+
+print("Training finished!")

@@ -34,7 +34,7 @@ x = transform(image).unsqueeze(0).to(device)
 
 # corrpu on the basis of amount (0-1)
 def corrupt(img_tensor, amount):
-    noise = torch.randn_like(img_tensor)  #randn to add noise of normal distrubution
+    noise = torch.randn_like(img_tensor)  #randn to add noise of normal
     amount = amount.view(-1, 1, 1, 1) 
     return img_tensor * (1 - amount) + noise * amount
 
