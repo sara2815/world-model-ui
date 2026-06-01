@@ -7,12 +7,34 @@ import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from diffusers import StableDiffusionPipeline
 
+from diffusers import DDPMScheduler
+
+noise_scheduler = DDPMScheduler(
+    num_train_timesteps=1000
+)
+
+
+noise = torch.randn_like(latents)
+
+timesteps = torch.randint(
+    0,
+    noise_scheduler.config.num_train_timesteps,
+    (batch_size,),
+    device=device
+)
+
+noisy_latents = noise_scheduler.add_noise(
+    latents,
+    noise,
+    timesteps
+)
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print("Loading base pipeline components for standalone image training...")
 pipeline = StableDiffusionPipeline.from_pretrained(
     "sd-dreambooth-library/mr-potato-head", 
-    torch_dtype=torch.float32
+    torch_dtype= torch.float16
 )
 
 net = pipeline.unet
@@ -32,7 +54,7 @@ transform = transforms.Compose([
 
 
 dataset = datasets.ImageFolder(root="./data", transform=transform)
-dataloader = DataLoader(dataset, batch_size=2, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
 
 # Use standard hyperparameters for fine-tuning a UNet
 optimizer = AdamW(net.parameters(), lr=1e-5)
@@ -58,7 +80,8 @@ for epoch in range(epochs):
         with torch.no_grad():
             # Compress your raw pixels down into 4-channel latent matrices
             latents = vae.encode(imgs).latent_dist.sample()
-            latents = latents * 0.18215 # Shape: [Batch, 4, 64, 64]
+            latents = latents * vae.config.scaling_factor  #use this instead of harcoding scaling factor
+            #latents = latents * 0.18215 # Shape: [Batch, 4, 64, 64]
             
         # Create random noise profiles and timestamps for the batch
         batch_size = latents.shape[0]
