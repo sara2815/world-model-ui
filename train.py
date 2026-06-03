@@ -39,7 +39,7 @@ transform = transforms.Compose([
 
 
 dataset = datasets.ImageFolder(root="./data", transform=transform)
-dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=16, shuffle=True)
 
 # Use standard hyperparameters for fine-tuning a UNet
 optimizer = AdamW(net.parameters(), lr=1e-5)
