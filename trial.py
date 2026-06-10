@@ -82,17 +82,29 @@ for i, amt in enumerate(amounts):
             timestep
         )
 
-        encoder_hidden_states = torch.zeros(  #dummy for text conditioning
-            (1, 77, 768),
-            device=device,
-            dtype=clean_latents.dtype
-        )
+        # encoder_hidden_states = torch.zeros(  #dummy for text conditioning
+        #     (1, 77, 768),
+        #     device=device,
+        #     dtype=clean_latents.dtype
+        # )
+        
+        action = "click create button"
+
+        text_embeddings = text_encoder(
+            tokenizer(
+                action,
+                padding="max_length",
+                truncation=True,
+                return_tensors="pt"
+            ).input_ids.to(device)
+        )[0]
         
          # UNet predicts noise
         pred_noise = net(
             noisy_latents,
             timestep,
-            encoder_hidden_states
+            # encoder_hidden_states,
+            text_embeddings
         ).sample
 
         # Scheduler converts prediction
