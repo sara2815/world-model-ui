@@ -57,9 +57,8 @@ def predict_next_screenshot(
 
     # Build prompt describing desired next state
     prompt = (
-        f"A UI screenshot after the following action was performed: {action.strip()}. "
-        "The screen clearly shows the result of this action. "
-        "Pixel-accurate UI, crisp text, clean layout."
+        f"Generate the UI screenshot after the following action was performed: {action.strip()}. "
+        "Pixel-accurate UI, crisp legible text, clean layout."
     )
     print(f"[prompt] {prompt}")
 
