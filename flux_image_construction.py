@@ -19,8 +19,9 @@ from diffusers import Flux2KleinPipeline
 
 def load_pipeline(model_id: str = "black-forest-labs/FLUX.2-klein-4B",
                   dtype=torch.bfloat16) -> Flux2KleinPipeline:
+    
     pipe = Flux2KleinPipeline.from_pretrained(model_id, torch_dtype=dtype)
-    pipe = pipe.to("cpu")
+    pipe = pipe.to("cuda" if torch.cuda.is_available() else "cpu")
     return pipe
 
 
@@ -61,8 +62,8 @@ def predict_next_screenshot(
         "Pixel-accurate UI, crisp legible text, clean layout."
     )
     print(f"[prompt] {prompt}")
-
-    generator = torch.Generator(device="cpu")
+    
+    generator = torch.Generator(device="cuda" if torch.cuda.is_available() else "cpu")
     if seed is not None:
         generator.manual_seed(seed)
 
@@ -81,10 +82,10 @@ def predict_next_screenshot(
 def parse_args():
     p = argparse.ArgumentParser(description="Predict next UI screenshot after an action.")
     p.add_argument("--screenshot", required=True, help="Path to current screenshot (PNG/JPG).")
-    p.add_argument("--action", required=True, help='e.g. "click the Submit button"')
+    p.add_argument("--action", required=True, help='e.g. "click on the Sign in Button and go to that page"')
     p.add_argument("--output", default="next_screenshot.png", help="Output path.")
-    p.add_argument("--steps", type=int, default=4, help="Inference steps (default 4).")
-    p.add_argument("--guidance", type=float, default=1.0, help="Guidance scale (default 1.0).")
+    p.add_argument("--steps", type=int, default=8, help="Inference steps (default 8).") #added more steps
+    p.add_argument("--guidance", type=float, default=4.0, help="Guidance scale (default 4.0).") # change guidance
     p.add_argument("--seed", type=int, default=None, help="Random seed.")
     p.add_argument("--model", default="black-forest-labs/FLUX.2-klein-4B")
     return p.parse_args()

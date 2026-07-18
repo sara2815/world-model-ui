@@ -27,27 +27,65 @@ def load_pipeline(model_id: str = "black-forest-labs/FLUX.2-klein-4B") -> Flux2K
     return pipe
 
 
+# def collect_triplets(root: Path) -> list[dict]:
+#     """Walk all episode dirs and collect every (before, action, after, episode) entry."""
+#     triplets = []
+#     for ep_dir in sorted(root.iterdir()):
+#         json_path = ep_dir / "actions_triplets.json"
+#         if not ep_dir.is_dir() or not json_path.is_file():
+#             continue
+#         with open(json_path, encoding="utf-8") as f:
+#             rows = json.load(f)
+#         for row in rows:
+#             before = ep_dir / row.get("screenshot_before", "")
+#             after  = ep_dir / row.get("screenshot_after", "")
+#             action = row.get("action_full") or row.get("action_raw", "")
+#             if before.is_file() and after.is_file() and action:
+#                 triplets.append({
+#                     "before": before,
+#                     "after":  after,
+#                     "action": action,
+#                     "episode": ep_dir.name,
+#                     "step_number": row.get("step_number", "?"),
+#                 })
+#     return triplets
+
 def collect_triplets(root: Path) -> list[dict]:
-    """Walk all episode dirs and collect every (before, action, after, episode) entry."""
     triplets = []
+
     for ep_dir in sorted(root.iterdir()):
-        json_path = ep_dir / "actions_triplets.json"
+        json_path = ep_dir / "actions_triplets_dino_changes.json"
+
         if not ep_dir.is_dir() or not json_path.is_file():
             continue
+
         with open(json_path, encoding="utf-8") as f:
             rows = json.load(f)
+
         for row in rows:
             before = ep_dir / row.get("screenshot_before", "")
-            after  = ep_dir / row.get("screenshot_after", "")
+            after = ep_dir / row.get("screenshot_after", "")
+
             action = row.get("action_full") or row.get("action_raw", "")
-            if before.is_file() and after.is_file() and action:
-                triplets.append({
-                    "before": before,
-                    "after":  after,
-                    "action": action,
-                    "episode": ep_dir.name,
-                    "step_number": row.get("step_number", "?"),
-                })
+            rmse_area = row.get("global_rmse_area_value")
+
+            if (
+                before.is_file()
+                and after.is_file()
+                and action
+                and rmse_area is not None
+            ):
+                triplets.append(
+                    {
+                        "before": before,
+                        "after": after,
+                        "action": action,
+                        "episode": ep_dir.name,
+                        "step_number": row.get("step_number", "?"),
+                        "rmse_area": float(rmse_area),
+                    }
+                )
+
     return triplets
 
 
@@ -94,14 +132,33 @@ def main():
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     print("[collect] scanning dataset...")
+    
     triplets = collect_triplets(args.root)
+
     print(f"[collect] found {len(triplets)} valid triplets")
+
+    triplets.sort(key=lambda x: x["rmse_area"], reverse=True)
+
+    top_fraction = 0.10   # top 10%
+    k = max(1, int(len(triplets) * top_fraction))
+
+    high_change_triplets = triplets[:k]
+
+    print(
+        f"[filter] keeping top {top_fraction*100:.0f}% "
+        f"({len(high_change_triplets)} samples)"
+    )
+    
+    random.seed(args.seed)
+
+    samples = random.sample(
+        high_change_triplets,
+        min(args.n, len(high_change_triplets))
+    )
 
     if len(triplets) == 0:
         raise RuntimeError("No valid triplets found. Check --root path.")
-
-    random.seed(args.seed)
-    samples = random.sample(triplets, min(args.n, len(triplets)))
+    
 
     print("[load] loading pipeline...")
     pipe = load_pipeline(args.model)

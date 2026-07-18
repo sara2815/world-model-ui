@@ -1,0 +1,898 @@
+[
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\47\\step_16_20250723@135234_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\47\\step_17_20250723@135259_not_annotated_with_cursor.png",
+    "action": "click on (454, 213)",
+    "ep": "47",
+    "rmse_area": 55995.6112565976
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\109\\step_10_20250724@051549_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\109\\step_11_20250724@051624_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500 and then sleep 1.00s",
+    "ep": "109",
+    "rmse_area": 246510.12188549174
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\112\\step_9_20250724@060154_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\112\\step_10_20250724@060217_not_annotated_with_cursor.png",
+    "action": "click on (144, 28) and then sleep 1.00s and then click on (944, 88) and then sleep 1.00s and then hotkey ctrl+r",
+    "ep": "112",
+    "rmse_area": 280408.08113890013
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\197\\step_15_20250724@205321_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\197\\step_16_20250724@205340_not_annotated_with_cursor.png",
+    "action": "click on (499, 223) and then sleep 1.00s",
+    "ep": "197",
+    "rmse_area": 50632.30273254417
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_3_20250723@083836_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_4_20250723@083906_not_annotated_with_cursor.png",
+    "action": "click on (614, 243) and then sleep 2.00s",
+    "ep": "21",
+    "rmse_area": 161532.12673644832
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_23_20250725@043026_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_24_20250725@043043_not_annotated_with_cursor.png",
+    "action": "click on (489, 248) and then sleep 2.00s",
+    "ep": "240",
+    "rmse_area": 164723.43697239927
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\152\\step_15_20250724@130117_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\152\\step_16_20250724@130141_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500",
+    "ep": "152",
+    "rmse_area": 167688.38452319827
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\235\\step_17_20250725@035008_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\235\\step_18_20250725@035044_not_annotated_with_cursor.png",
+    "action": "move the cursor to (654, 683) and then sleep 1.00s and then scroll vertically by -500 and then sleep 2.00s",
+    "ep": "235",
+    "rmse_area": 243335.06986047036
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\222\\step_16_20250725@013532_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\222\\step_17_20250725@013554_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 500",
+    "ep": "222",
+    "rmse_area": 247774.24563501347
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\68\\step_3_20250723@183105_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\68\\step_4_20250723@183126_not_annotated_with_cursor.png",
+    "action": "click on (404, 243)",
+    "ep": "68",
+    "rmse_area": 53333.333066666666
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_23_20250724@025913_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_24_20250724@025940_not_annotated_with_cursor.png",
+    "action": "click on (424, 473) and then sleep 2.00s and then click on (674, 363) and then sleep 3.00s",
+    "ep": "98",
+    "rmse_area": 63811.66288383339
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_2_20250724@202913_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_3_20250724@202932_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000",
+    "ep": "195",
+    "rmse_area": 248246.9170805551
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_24_20250723@111249_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_25_20250723@111307_not_annotated_with_cursor.png",
+    "action": "press down and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "33",
+    "rmse_area": 61742.148715443975
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\167\\step_1_20250724@154908_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\167\\step_2_20250724@154924_not_annotated_with_cursor.png",
+    "action": "click on (704, 433) and then sleep 1.00s",
+    "ep": "167",
+    "rmse_area": 85649.85165194391
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\250\\step_15_20250725@062139_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\250\\step_16_20250725@062201_not_annotated_with_cursor.png",
+    "action": "click on (364, 278) and then sleep 5.00s",
+    "ep": "250",
+    "rmse_area": 272090.05191664025
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\250\\step_12_20250725@061951_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\250\\step_13_20250725@062023_not_annotated_with_cursor.png",
+    "action": "click on (474, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press backspace and then sleep 0.50s and then type 'public.tableau.com/app/discover' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "250",
+    "rmse_area": 272111.18668661895
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_9_20250724@203148_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_10_20250724@203209_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000",
+    "ep": "195",
+    "rmse_area": 248246.9170805551
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\17\\step_4_20250723@075401_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\17\\step_5_20250723@075420_not_annotated_with_cursor.png",
+    "action": "click on (124, 403) and then sleep 2.00s",
+    "ep": "17",
+    "rmse_area": 179316.27656183363
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_15_20250723@084542_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_16_20250723@084629_not_annotated_with_cursor.png",
+    "action": "click on (624, 243) and then sleep 3.00s",
+    "ep": "21",
+    "rmse_area": 164724.4813377781
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\79\\step_12_20250723@202649_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\79\\step_13_20250723@202736_not_annotated_with_cursor.png",
+    "action": "click on (634, 233) and then sleep 0.50s and then press left",
+    "ep": "79",
+    "rmse_area": 66183.68620740311
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\242\\step_10_20250725@045307_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\242\\step_11_20250725@045330_not_annotated_with_cursor.png",
+    "action": "click on (424, 453) and then sleep 0.50s and then type 'Federal Trade Commission Identity Theft Tableau' and then sleep 0.50s and then press enter",
+    "ep": "242",
+    "rmse_area": 61293.90547191458
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\150\\step_6_20250724@122637_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\150\\step_7_20250724@122656_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500",
+    "ep": "150",
+    "rmse_area": 278855.2489303366
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\168\\step_7_20250724@160236_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\168\\step_8_20250724@160256_not_annotated_with_cursor.png",
+    "action": "click on (424, 353) and then sleep 1.00s and then type 'Tableau Public Mortgage complaints' and then sleep 1.00s and then press enter",
+    "ep": "168",
+    "rmse_area": 63316.70237780865
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_22_20250723@084913_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_23_20250723@084957_not_annotated_with_cursor.png",
+    "action": "click on (514, 243) and then sleep 3.00s",
+    "ep": "21",
+    "rmse_area": 199934.16644485755
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\24\\step_12_20250723@092052_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\24\\step_13_20250723@092108_not_annotated_with_cursor.png",
+    "action": "click on (149, 153) and then sleep 1.00s",
+    "ep": "24",
+    "rmse_area": 55242.80774906359
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_7_20250723@100257_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_8_20250723@100321_not_annotated_with_cursor.png",
+    "action": "click on (689, 484)",
+    "ep": "28",
+    "rmse_area": 50963.265201515496
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_15_20250724@025515_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_16_20250724@025548_not_annotated_with_cursor.png",
+    "action": "click on (409, 253) and then sleep 1.00s and then press backspace and then sleep 0.50s and then type '2007' and then sleep 0.50s and then press enter and then sleep 3.00s",
+    "ep": "98",
+    "rmse_area": 86584.95758502166
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\17\\step_3_20250723@075330_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\17\\step_4_20250723@075401_not_annotated_with_cursor.png",
+    "action": "double click on (254, 208) and then sleep 0.50s and then type '4/1/2025' and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "17",
+    "rmse_area": 179298.12741911167
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_2_20250723@142201_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_3_20250723@142220_not_annotated_with_cursor.png",
+    "action": "click on (424, 653)",
+    "ep": "49",
+    "rmse_area": 76079.3657176504
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_17_20250723@111045_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_18_20250723@111110_not_annotated_with_cursor.png",
+    "action": "press down and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "33",
+    "rmse_area": 61811.3278938416
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\248\\step_2_20250725@054250_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\248\\step_3_20250725@054309_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -300 and then sleep 1.00s",
+    "ep": "248",
+    "rmse_area": 161422.2864414948
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\269\\step_22_20250725@094759_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\269\\step_23_20250725@094814_not_annotated_with_cursor.png",
+    "action": "click on (424, 443) and then sleep 1.00s and then type 'Pollution pie chart Tableau Public' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "269",
+    "rmse_area": 297926.7161434167
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\84\\step_17_20250723@213947_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\84\\step_18_20250723@214029_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -5000 and then sleep 1.00s and then click on (424, 633) and then sleep 1.00s",
+    "ep": "84",
+    "rmse_area": 239167.03237695617
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\123\\step_2_20250728@081124_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\123\\step_3_20250728@081158_not_annotated_with_cursor.png",
+    "action": "click on (694, 483) and then sleep 1.00s",
+    "ep": "123",
+    "rmse_area": 51188.976313264946
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\192\\step_12_20250724@200547_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\192\\step_13_20250724@200609_not_annotated_with_cursor.png",
+    "action": "type 'Tableau Public' and then sleep 0.50s and then press enter",
+    "ep": "192",
+    "rmse_area": 126000.0843174321
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\37\\step_3_20250723@114724_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\37\\step_4_20250723@114756_not_annotated_with_cursor.png",
+    "action": "click on (219, 258)",
+    "ep": "37",
+    "rmse_area": 52872.83219196793
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\247\\step_6_20250725@053715_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\247\\step_7_20250725@053906_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500 and then sleep 1.00s",
+    "ep": "247",
+    "rmse_area": 239616.51281996406
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\169\\step_13_20250724@161746_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\169\\step_14_20250724@161805_not_annotated_with_cursor.png",
+    "action": "click on (684, 233)",
+    "ep": "169",
+    "rmse_area": 179493.70787857717
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\154\\step_17_20250724@133423_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\154\\step_18_20250724@133441_not_annotated_with_cursor.png",
+    "action": "click on (449, 288) and then sleep 1.00s and then type 'Over The Hill Tableau' and then sleep 1.00s and then press enter",
+    "ep": "154",
+    "rmse_area": 126709.3611695679
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_14_20250724@141929_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_15_20250724@142015_not_annotated_with_cursor.png",
+    "action": "click on (459, 348) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'Cities v2.2 Econ Tableau Public' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "159",
+    "rmse_area": 50891.171100692896
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_4_20250723@130944_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_5_20250723@131016_not_annotated_with_cursor.png",
+    "action": "move the cursor to (649, 248) and then sleep 0.50s and then drag the cursor to (524, 248)",
+    "ep": "43",
+    "rmse_area": 51363.40175650363
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\241\\step_21_20250725@044429_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\241\\step_22_20250725@044507_not_annotated_with_cursor.png",
+    "action": "click on (444, 353) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press backspace and then sleep 0.50s and then type 'public.tableau.com/app/discover' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "241",
+    "rmse_area": 99127.05447051274
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_14_20250725@024452_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_15_20250725@024612_not_annotated_with_cursor.png",
+    "action": "move the cursor to (654, 503) and then sleep 1.00s and then scroll vertically by -400 and then sleep 2.00s",
+    "ep": "228",
+    "rmse_area": 248138.6719397039
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\11\\step_1_20250723@065541_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\11\\step_2_20250723@065740_not_annotated_with_cursor.png",
+    "action": "click on (324, 243) and then sleep 1.00s",
+    "ep": "11",
+    "rmse_area": 112617.18405287889
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\267\\step_23_20250725@092325_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\267\\step_24_20250725@092357_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000 and then sleep 2.00s",
+    "ep": "267",
+    "rmse_area": 124751.48185091831
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_1_20250723@142142_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_2_20250723@142201_not_annotated_with_cursor.png",
+    "action": "hotkey ctrl+a and then sleep 0.50s and then press backspace and then sleep 0.50s and then type 'Acetic Acid' and then sleep 0.50s and then click on (274, 133)",
+    "ep": "49",
+    "rmse_area": 60910.36929784616
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\276\\step_18_20250725@104422_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\276\\step_19_20250725@104452_not_annotated_with_cursor.png",
+    "action": "click on (424, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press backspace and then sleep 0.50s and then type 'public.tableau.com' and then sleep 0.50s and then press enter and then sleep 5.00s",
+    "ep": "276",
+    "rmse_area": 163578.57893990888
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_15_20250724@124541_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_16_20250724@124609_not_annotated_with_cursor.png",
+    "action": "move the cursor to (724, 503) and then sleep 0.50s and then scroll vertically by -500",
+    "ep": "151",
+    "rmse_area": 266425.6275961455
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\34\\step_0_loaded_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\34\\step_1_20250723@111610_not_annotated_with_cursor.png",
+    "action": "click on (349, 58)",
+    "ep": "34",
+    "rmse_area": 70266.14911890362
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_19_20250723@111126_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_20_20250723@111143_not_annotated_with_cursor.png",
+    "action": "press down and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "33",
+    "rmse_area": 64027.238203752
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_16_20250724@142107_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_17_20250724@142145_not_annotated_with_cursor.png",
+    "action": "click on (374, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'https://public.tableau.com/views/Citiesv2_2/Dashboard' and then sleep 1.00s and then press enter and then sleep 7.00s",
+    "ep": "159",
+    "rmse_area": 245593.084984085
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_22_20250724@032904_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_23_20250724@032953_not_annotated_with_cursor.png",
+    "action": "move the cursor to (524, 553) and then sleep 0.50s and then scroll vertically by -500 and then sleep 2.00s",
+    "ep": "100",
+    "rmse_area": 99206.62171448032
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\2\\step_0_loaded_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\2\\step_1_20250723@052514_not_annotated_with_cursor.png",
+    "action": "click on (477, 86) and then sleep 1.00s and then click on (674, 28) and then sleep 1.00s and then type 'BRICS energy usage' and then sleep 1.00s and then press enter",
+    "ep": "2",
+    "rmse_area": 248351.6103591841
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_6_20250723@131043_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_7_20250723@131059_not_annotated_with_cursor.png",
+    "action": "move the cursor to (649, 248) and then sleep 0.50s and then drag the cursor to (524, 248)",
+    "ep": "43",
+    "rmse_area": 63490.35277898525
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\272\\step_8_20250725@100602_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\272\\step_9_20250725@100655_not_annotated_with_cursor.png",
+    "action": "click on (754, 183) and then sleep 2.00s",
+    "ep": "272",
+    "rmse_area": 147105.54186705544
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_16_20250724@032538_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_17_20250724@032608_not_annotated_with_cursor.png",
+    "action": "click on (174, 253) and then sleep 2.00s",
+    "ep": "100",
+    "rmse_area": 57595.48871222467
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\266\\step_9_20250725@085944_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\266\\step_10_20250725@090015_not_annotated_with_cursor.png",
+    "action": "click on (144, 583) and then sleep 1.00s",
+    "ep": "266",
+    "rmse_area": 58506.45639585429
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\204\\step_17_20250724@220147_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\204\\step_18_20250724@220221_not_annotated_with_cursor.png",
+    "action": "click on (449, 161) and then sleep 2.00s",
+    "ep": "204",
+    "rmse_area": 109125.20808685773
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\191\\step_19_20250724@195259_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\191\\step_20_20250724@195335_not_annotated_with_cursor.png",
+    "action": "click on (424, 388) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'https://public.tableau.com/views/WorldEnergyConsumption_16873489959340/WorldEnergyConsumption' and then sleep 1.00s and then press enter",
+    "ep": "191",
+    "rmse_area": 63107.52931307008
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_16_20250723@084629_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_17_20250723@084709_not_annotated_with_cursor.png",
+    "action": "click on (214, 243) and then sleep 3.00s",
+    "ep": "21",
+    "rmse_area": 199937.10627094712
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_2_20250725@023957_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_3_20250725@024027_not_annotated_with_cursor.png",
+    "action": "move the cursor to (674, 503) and then sleep 0.50s and then scroll vertically by -500 and then sleep 1.00s",
+    "ep": "228",
+    "rmse_area": 259798.71199064865
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_16_20250724@124609_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_17_20250724@124635_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000",
+    "ep": "151",
+    "rmse_area": 266416.8335822645
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_12_20250723@084418_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_13_20250723@084443_not_annotated_with_cursor.png",
+    "action": "click on (509, 243) and then sleep 2.00s",
+    "ep": "21",
+    "rmse_area": 164726.86843378042
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\182\\step_10_20250724@184131_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\182\\step_11_20250724@184157_not_annotated_with_cursor.png",
+    "action": "click on (444, 353) and then sleep 1.00s and then type 'American Wars Tableau' and then press enter and then sleep 5.00s",
+    "ep": "182",
+    "rmse_area": 149265.3369004338
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\136\\step_21_20250728@102546_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\136\\step_22_20250728@102601_not_annotated_with_cursor.png",
+    "action": "click on (795, 349) and then sleep 2.00s",
+    "ep": "136",
+    "rmse_area": 55420.272391968625
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_5_20250724@123753_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_6_20250724@123818_not_annotated_with_cursor.png",
+    "action": "click on (239, 268) and then sleep 1.00s and then type 'New Zealand' and then sleep 0.50s and then press enter",
+    "ep": "151",
+    "rmse_area": 51494.93054660818
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\222\\step_15_20250725@013513_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\222\\step_16_20250725@013532_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500",
+    "ep": "222",
+    "rmse_area": 247802.6858934342
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\286\\step_4_20250725@123848_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\286\\step_5_20250725@123908_not_annotated_with_cursor.png",
+    "action": "click on (434, 273) and then sleep 2.00s",
+    "ep": "286",
+    "rmse_area": 53911.8237124288
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_3_20250724@123712_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_4_20250724@123728_not_annotated_with_cursor.png",
+    "action": "click on (254, 283)",
+    "ep": "151",
+    "rmse_area": 53107.376813395706
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_20_20250724@031245_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_21_20250724@031318_not_annotated_with_cursor.png",
+    "action": "click on (259, 778) and then sleep 2.00s",
+    "ep": "99",
+    "rmse_area": 73755.71354139285
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\249\\step_2_20250725@055856_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\249\\step_3_20250725@055943_not_annotated_with_cursor.png",
+    "action": "click on (407, 66)",
+    "ep": "249",
+    "rmse_area": 107483.60812700697
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\226\\step_6_20250725@020846_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\226\\step_7_20250725@020928_not_annotated_with_cursor.png",
+    "action": "click on (424, 173) and then sleep 0.50s and then press tab and then sleep 0.50s and then press tab and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "226",
+    "rmse_area": 238188.07009588034
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_7_20250724@203051_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_8_20250724@203124_not_annotated_with_cursor.png",
+    "action": "click on (144, 188) and then sleep 1.50s and then press down and then sleep 0.50s and then press down and then sleep 0.50s and then press enter",
+    "ep": "195",
+    "rmse_area": 104973.86249919549
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\241\\step_17_20250725@044206_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\241\\step_18_20250725@044255_not_annotated_with_cursor.png",
+    "action": "click on (474, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'public.tableau.com/app/discover' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "241",
+    "rmse_area": 119777.70557161295
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\247\\step_7_20250725@053906_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\247\\step_8_20250725@053934_not_annotated_with_cursor.png",
+    "action": "click on (74, 653) and then sleep 2.00s",
+    "ep": "247",
+    "rmse_area": 191195.24144706113
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\276\\step_20_20250725@104530_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\276\\step_21_20250725@104552_not_annotated_with_cursor.png",
+    "action": "click on (324, 453) and then sleep 5.00s",
+    "ep": "276",
+    "rmse_area": 163574.45981570595
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_3_20250725@024027_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\228\\step_4_20250725@024046_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 500 and then sleep 1.00s",
+    "ep": "228",
+    "rmse_area": 259749.40686746524
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\133\\step_0_loaded_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\133\\step_1_20250728@095607_not_annotated_with_cursor.png",
+    "action": "click on (354, 73)",
+    "ep": "133",
+    "rmse_area": 234165.21647759728
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\24\\step_6_20250723@091853_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\24\\step_7_20250723@091910_not_annotated_with_cursor.png",
+    "action": "click on (144, 153) and then sleep 1.00s",
+    "ep": "24",
+    "rmse_area": 64042.75771701278
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_4_20250723@100111_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_5_20250723@100136_not_annotated_with_cursor.png",
+    "action": "click on (689, 503)",
+    "ep": "28",
+    "rmse_area": 50677.097312296806
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\84\\step_20_20250723@214132_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\84\\step_21_20250723@214153_not_annotated_with_cursor.png",
+    "action": "click on (984, 93) and then sleep 1.00s and then click on (324, 48) and then sleep 3.00s",
+    "ep": "84",
+    "rmse_area": 59284.35071753759
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_21_20250723@111159_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_22_20250723@111215_not_annotated_with_cursor.png",
+    "action": "press down and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "33",
+    "rmse_area": 70254.6608845278
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\191\\step_16_20250724@195141_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\191\\step_17_20250724@195203_not_annotated_with_cursor.png",
+    "action": "click on (424, 388) and then sleep 0.50s and then type 'Tableau energy consumption dashboard' and then sleep 0.50s and then press enter",
+    "ep": "191",
+    "rmse_area": 50261.799092352434
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\169\\step_11_20250724@161707_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\169\\step_12_20250724@161730_not_annotated_with_cursor.png",
+    "action": "click on (554, 283)",
+    "ep": "169",
+    "rmse_area": 161538.66241862968
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_9_20250723@131138_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_10_20250723@131209_not_annotated_with_cursor.png",
+    "action": "click on (134, 248)",
+    "ep": "43",
+    "rmse_area": 63490.35277898525
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_3_20250723@100032_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\28\\step_4_20250723@100111_not_annotated_with_cursor.png",
+    "action": "click on (689, 503)",
+    "ep": "28",
+    "rmse_area": 52462.184781040145
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\6\\step_4_20250723@061102_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\6\\step_5_20250723@061149_not_annotated_with_cursor.png",
+    "action": "click on (224, 258) and then sleep 1.00s and then press down and then sleep 0.50s and then press enter",
+    "ep": "6",
+    "rmse_area": 138848.06268724098
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\113\\step_14_20250724@062132_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\113\\step_15_20250724@062209_not_annotated_with_cursor.png",
+    "action": "move the cursor to (724, 503) and then sleep 0.50s and then scroll vertically by -500 and then sleep 2.00s",
+    "ep": "113",
+    "rmse_area": 263981.24927350425
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_13_20250723@084443_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_14_20250723@084525_not_annotated_with_cursor.png",
+    "action": "click on (699, 243) and then sleep 2.00s",
+    "ep": "21",
+    "rmse_area": 164726.86843378042
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\185\\step_3_20250724@190215_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\185\\step_4_20250724@190228_not_annotated_with_cursor.png",
+    "action": "click on (218, 247)",
+    "ep": "185",
+    "rmse_area": 51245.824493318476
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\69\\step_2_20250723@183810_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\69\\step_3_20250723@183833_not_annotated_with_cursor.png",
+    "action": "click on (474, 253) and then sleep 1.00s",
+    "ep": "69",
+    "rmse_area": 144385.42552487768
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\238\\step_3_20250725@040723_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\238\\step_4_20250725@040815_not_annotated_with_cursor.png",
+    "action": "click on (704, 443)",
+    "ep": "238",
+    "rmse_area": 87969.56564630747
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\124\\step_1_20250728@082653_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\124\\step_2_20250728@082716_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500",
+    "ep": "124",
+    "rmse_area": 162884.05495934832
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\171\\step_15_20250724@164024_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\171\\step_16_20250724@164111_not_annotated_with_cursor.png",
+    "action": "click on (374, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'https://www.google.com/search?q=Tableau+Public+Identity+Theft+dashboard' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "171",
+    "rmse_area": 260235.073055113
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\269\\step_19_20250725@094630_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\269\\step_20_20250725@094709_not_annotated_with_cursor.png",
+    "action": "right click on (474, 223) and then sleep 1.50s and then click on (494, 323) and then sleep 1.00s and then click on (374, 38) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press backspace and then sleep 0.50s and then hotkey ctrl+v and then sleep 0.50s and then press enter and then sleep 5.00s",
+    "ep": "269",
+    "rmse_area": 188865.90849594853
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\174\\step_12_20250724@170655_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\174\\step_13_20250724@170710_not_annotated_with_cursor.png",
+    "action": "click on (574, 258) and then sleep 2.00s",
+    "ep": "174",
+    "rmse_area": 63122.411107308
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_21_20250724@031318_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_22_20250724@031353_not_annotated_with_cursor.png",
+    "action": "click on (124, 953) and then sleep 1.00s and then click on (254, 833) and then sleep 2.00s",
+    "ep": "99",
+    "rmse_area": 63201.68301556534
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_15_20250723@131536_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\43\\step_16_20250723@131645_not_annotated_with_cursor.png",
+    "action": "click on (374, 253) and then sleep 1.00s and then click on (674, 173)",
+    "ep": "43",
+    "rmse_area": 67007.07162680668
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\1\\step_4_20250723@050949_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\1\\step_5_20250723@051004_not_annotated_with_cursor.png",
+    "action": "click on (654, 248) and then sleep 1.00s",
+    "ep": "1",
+    "rmse_area": 89142.52928877439
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_20_20250723@111143_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\33\\step_21_20250723@111159_not_annotated_with_cursor.png",
+    "action": "press down and then sleep 0.50s and then press enter and then sleep 2.00s",
+    "ep": "33",
+    "rmse_area": 70794.19818035938
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\268\\step_5_20250725@092752_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\268\\step_6_20250725@092819_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000 and then sleep 1.00s",
+    "ep": "268",
+    "rmse_area": 242831.11392076593
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\199\\step_4_20250724@212023_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\199\\step_4_20250724@212037_not_annotated_with_cursor.png",
+    "action": "click on (724, 218) and then sleep 1.00s and then hotkey ctrl+a and then press delete and then type 'Acetic Acid' and then sleep 1.00s and then press enter and then sleep 3.00s",
+    "ep": "199",
+    "rmse_area": 54538.68205228286
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_15_20250724@142015_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\159\\step_16_20250724@142107_not_annotated_with_cursor.png",
+    "action": "type 'Cities v2.2 Econ Tableau Public' and then sleep 1.00s and then press enter and then sleep 5.00s",
+    "ep": "159",
+    "rmse_area": 50868.36093290209
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_7_20250723@084025_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\21\\step_8_20250723@084055_not_annotated_with_cursor.png",
+    "action": "click on (574, 243) and then sleep 2.00s",
+    "ep": "21",
+    "rmse_area": 164723.22561193368
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_22_20250724@025830_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_23_20250724@025913_not_annotated_with_cursor.png",
+    "action": "move the cursor to (674, 233) and then drag the cursor to (718, 233) and then sleep 1.00s and then move the cursor to (774, 233) and then drag the cursor to (718, 233) and then sleep 2.00s and then click on (674, 363) and then sleep 3.00s",
+    "ep": "98",
+    "rmse_area": 64015.968007990006
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_10_20250725@042407_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_11_20250725@042439_not_annotated_with_cursor.png",
+    "action": "click on (694, 233) and then sleep 1.00s",
+    "ep": "240",
+    "rmse_area": 164715.20614685214
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\19\\step_7_20250723@082301_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\19\\step_8_20250723@082318_not_annotated_with_cursor.png",
+    "action": "click on (659, 313) and then sleep 2.00s",
+    "ep": "19",
+    "rmse_area": 85315.49880297249
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_14_20250724@030925_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\99\\step_15_20250724@030941_not_annotated_with_cursor.png",
+    "action": "click on (704, 738) and then sleep 2.00s",
+    "ep": "99",
+    "rmse_area": 88704.00865800824
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\47\\step_15_20250723@135210_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\47\\step_16_20250723@135234_not_annotated_with_cursor.png",
+    "action": "click on (624, 213)",
+    "ep": "47",
+    "rmse_area": 56005.156334037674
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\26\\step_16_20250723@094817_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\26\\step_17_20250723@094859_not_annotated_with_cursor.png",
+    "action": "click on (494, 253) and then sleep 3.00s",
+    "ep": "26",
+    "rmse_area": 62720.69795530021
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\235\\step_16_20250725@034933_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\235\\step_17_20250725@035008_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000 and then sleep 2.00s",
+    "ep": "235",
+    "rmse_area": 243335.06986047036
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\162\\step_19_20250724@150126_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\162\\step_20_20250724@150155_not_annotated_with_cursor.png",
+    "action": "click on (494, 758) and then sleep 3.00s",
+    "ep": "162",
+    "rmse_area": 65507.64621019443
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_19_20250724@025733_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\98\\step_20_20250724@025751_not_annotated_with_cursor.png",
+    "action": "click on (454, 418) and then sleep 3.00s",
+    "ep": "98",
+    "rmse_area": 67752.43027375476
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_4_20250724@202948_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_5_20250724@203004_not_annotated_with_cursor.png",
+    "action": "scroll vertically by 1000",
+    "ep": "195",
+    "rmse_area": 248246.9170805551
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\54\\step_10_20250723@153659_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\54\\step_11_20250723@153724_not_annotated_with_cursor.png",
+    "action": "hotkey ctrl+t and then sleep 2.00s and then type 'tableau dashboard housing cost burden' and then press enter and then sleep 5.00s",
+    "ep": "54",
+    "rmse_area": 265859.00431619765
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\108\\step_17_20250724@050307_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\108\\step_18_20250724@050326_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500 and then sleep 1.00s",
+    "ep": "108",
+    "rmse_area": 247253.11429383451
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_19_20250724@203554_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\195\\step_20_20250724@203726_not_annotated_with_cursor.png",
+    "action": "click on (144, 188) and then sleep 1.00s and then type 'Abilene, TX' and then sleep 1.00s and then press enter and then sleep 2.00s",
+    "ep": "195",
+    "rmse_area": 240481.70112505442
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\185\\step_1_20250724@190027_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\185\\step_2_20250724@190158_not_annotated_with_cursor.png",
+    "action": "click on (94, 273)",
+    "ep": "185",
+    "rmse_area": 53004.295674973364
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_8_20250723@142352_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\49\\step_9_20250723@142405_not_annotated_with_cursor.png",
+    "action": "click on (424, 653)",
+    "ep": "49",
+    "rmse_area": 53020.07468874408
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\23\\step_11_20250723@090618_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\23\\step_12_20250723@090655_not_annotated_with_cursor.png",
+    "action": "click on (274, 53) and then sleep 1.00s and then hotkey ctrl+a and then press delete and then type 'https://public.tableau.com/views/FraudandIDTheftMaps/AllReportsbyState?:embed=y&:showVizHome=no' and then press enter and then sleep 5.00s",
+    "ep": "23",
+    "rmse_area": 261182.69835500207
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\168\\step_9_20250724@160314_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\168\\step_10_20250724@160335_not_annotated_with_cursor.png",
+    "action": "type 'Tableau Public Mortgage complaints' and then sleep 1.00s and then press enter",
+    "ep": "168",
+    "rmse_area": 92726.69656576794
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\50\\step_24_20250723@144838_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\50\\step_25_20250723@144920_not_annotated_with_cursor.png",
+    "action": "click on (474, 53) and then sleep 1.00s and then hotkey ctrl+a and then sleep 0.50s and then press delete and then sleep 0.50s and then type 'public.tableau.com' and then sleep 1.00s and then press enter",
+    "ep": "50",
+    "rmse_area": 97223.65736794723
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\232\\step_4_20250725@031035_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\232\\step_5_20250725@031104_not_annotated_with_cursor.png",
+    "action": "click on (654, 583)",
+    "ep": "232",
+    "rmse_area": 69390.49664039018
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_14_20250725@042624_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\240\\step_15_20250725@042654_not_annotated_with_cursor.png",
+    "action": "click on (694, 233) and then sleep 2.00s",
+    "ep": "240",
+    "rmse_area": 164721.90771114812
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_15_20250724@032505_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\100\\step_16_20250724@032538_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500 and then sleep 2.00s",
+    "ep": "100",
+    "rmse_area": 293272.05139255937
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\173\\step_4_20250724@165003_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\173\\step_5_20250724@165023_not_annotated_with_cursor.png",
+    "action": "scroll vertically by -500",
+    "ep": "173",
+    "rmse_area": 246484.13316885126
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_4_20250724@123728_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\151\\step_5_20250724@123753_not_annotated_with_cursor.png",
+    "action": "click on (134, 218)",
+    "ep": "151",
+    "rmse_area": 51642.36896192892
+  },
+  {
+    "before": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\37\\step_4_20250723@114756_not_annotated_with_cursor.png",
+    "after": "C:\\Users\\adyes\\Downloads\\results_gemini_pro_25_screenshot\\results_gemini_pro_25_screenshot\\37\\step_5_20250723@114857_not_annotated_with_cursor.png",
+    "action": "click on (124, 258)",
+    "ep": "37",
+    "rmse_area": 53071.99276454579
+  }
+]
