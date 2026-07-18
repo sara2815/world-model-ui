@@ -98,8 +98,8 @@ def run(screenshot: Path, action: str, pipe: Flux2KleinPipeline,
     img = img.resize((w, h), Image.LANCZOS)
 
     prompt = (
-        f"A UI screenshot after the following action was performed: {action.strip()}. "
-        "The screen clearly shows the result of this action. "
+        f"Generate a UI screenshot after the following action was performed: {action.strip()}. "
+        "The predicted screen clearly shows the result of this action. "
         "Pixel-accurate UI, crisp text, clean layout."
     )
 
