@@ -16,7 +16,6 @@ _DEFAULT_DATA_ROOT = ""
 _TRIPLETS_FILENAME = "actions_triplets_dino_changes.json"
 _TRIPLETS_FALLBACK = "actions_triplets.json"
 
-# ~52% of metrics are 0; far tail is unlearnable. Max ≈ p95.
 _DEFAULT_MIN_CHANGE_METRIC = 10000.0
 _DEFAULT_MAX_CHANGE_METRIC = 126500.0
 
