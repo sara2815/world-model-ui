@@ -71,7 +71,7 @@ def main():
         "click on (424, 353) and then type 'Tableau Public Mortgage complaints' and then sleep 1.00s and then press enter",
         "click on item 60 (div \"Fig. 5: Commodity profile of imports through ICDs - All. Data Visualization. Bubble chart, Color applied to Product Cate\") sleep 1.00s, type 'Tableau Public Mortgage complaints, sleep 1.00s, press Enter, scroll down to the bottom of the page, close the current dialog",
         "make a black cross on (424, 353) and then type 'Tableau Public Mortgage complaints' and then press enter",
-        "make a black cross on item 60 (div \"Fig. 5: Commodity profile of imports through ICDs - All. Data Visualization. Bubble chart, Color applied to Product Cate\") "
+        "make a black cross on the Plastics, Rubber and their products section and type 'Tableau Public Mortgage complaints' and then press enter",
     ]
     # --------------------------------------------------------------
 
