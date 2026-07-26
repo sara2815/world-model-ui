@@ -23,11 +23,11 @@ A single composite score combines all of these, with configurable weights.
 USAGE
 -----
 Single triplet:
-    python change_metric.py --before before.png --gt gt.png --pred pred.png \
+    python metrics.py --before before.png --gt gt.png --pred pred.png \
         [--viz viz_out.png] [--json out.json]
 
 Batch (many triplets from a JSON list):
-    python change_metric.py --triplets triplets.json --out results.csv
+    python metrics.py --triplets triplets.json --out results.csv
 
     triplets.json format:
     [

@@ -11,7 +11,7 @@ Fixed/combined version of the original run_prompt_comparison.py scaffold:
   - before/gt image pairing uses the JSON's own "screenshot_before" /
     "screenshot_after" fields directly, instead of guessing by sorted
     filename position (which breaks past step_9 due to lexicographic sort).
-  - METRICS_SCRIPT points at metrics.py (matches the filename you're
+  - METRICS_SCRIPT points at change_metric.py (matches the filename you're
     actually using).
 
 Usage:
@@ -29,9 +29,16 @@ import torch
 from PIL import Image
 from diffusers import Flux2KleinPipeline
 
-METRICS_SCRIPT = Path(__file__).resolve().parent / "metrics.py"
+METRICS_SCRIPT = Path(__file__).resolve().parent / "metric.py"
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+def _swap_annotated(filename: str) -> str:
+    """Match dataset.py's WorldModelDataset(use_annotated_image=True) behavior:
+    the JSON always records the '_not_annotated_' filename, but the actual
+    files on disk in filtered_world_model/ are the '_annotated_' versions."""
+    return filename.replace("_not_annotated_with_cursor.png", "_annotated_with_cursor.png")
+
 
 # --- Prompt levels, built from the JSON's real "action_new" field. ---
 PROMPT_LEVELS = {
@@ -128,8 +135,8 @@ def build_structure_and_predict(dataset_root: Path, limit: int | None = None):
 
         for action_info in rows:
             step_number = action_info.get("step_number")
-            before_name = action_info.get("screenshot_before", "")
-            after_name = action_info.get("screenshot_after", "")
+            before_name = _swap_annotated(action_info.get("screenshot_before", ""))
+            after_name = _swap_annotated(action_info.get("screenshot_after", ""))
             action_text = action_info.get("action_new", "")
 
             if not before_name or not after_name or not action_text:
